@@ -1,4 +1,4 @@
-package oop
+package oop.smartcasts
 
 class Seller(name: String, age: Int): Worker(name, age), Cleaner {
     override fun work() {

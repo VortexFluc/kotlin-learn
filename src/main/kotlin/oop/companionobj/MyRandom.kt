@@ -1,4 +1,4 @@
-package oop
+package oop.companionobj
 
 import java.time.DayOfWeek
 import java.util.*

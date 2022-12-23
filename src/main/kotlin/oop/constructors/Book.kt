@@ -1,4 +1,4 @@
-package oop
+package oop.constructors
 
 class Book(val title: String, var year: Int? = null, var price: Int? = null) {
 

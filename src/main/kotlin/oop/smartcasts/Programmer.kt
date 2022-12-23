@@ -1,4 +1,4 @@
-package oop
+package oop.smartcasts
 
 class Programmer(name: String, age: Int, var language: String): Worker(name, age), Cleaner {
     override fun work() {

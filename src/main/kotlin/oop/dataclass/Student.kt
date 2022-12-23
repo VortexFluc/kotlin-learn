@@ -1,4 +1,4 @@
-package oop
+package oop.dataclass
 
 class Student(val name: String, val lastName: String, val id: Int) {
     fun copy(name: String = this.name, lastName: String = this.lastName, id: Int = this.id): Student {

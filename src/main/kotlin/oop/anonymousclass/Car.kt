@@ -1,4 +1,4 @@
-package oop
+package oop.anonymousclass
 
 class Car(override var name: String = "Car"): Vehicle(name) {
     override fun drive() {

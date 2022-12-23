@@ -1,4 +1,4 @@
-package oop
+package oop.methods
 
 class MethodEx(val name: String, var age: Int, val weight: Float = 0f) {
 

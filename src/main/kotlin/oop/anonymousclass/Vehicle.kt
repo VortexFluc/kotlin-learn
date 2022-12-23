@@ -1,4 +1,4 @@
-package oop
+package oop.anonymousclass
 
 abstract class Vehicle(open val name: String) {
     abstract fun drive();

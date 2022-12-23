@@ -1,4 +1,4 @@
-package oop
+package oop.anonymousclass
 
 class Sportsman {
     fun callWaterboy(waterboy: Waterboy) {
