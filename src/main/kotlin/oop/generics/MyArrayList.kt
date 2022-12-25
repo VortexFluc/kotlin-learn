@@ -5,6 +5,16 @@ class MyArrayList<T>(private val initialCapacity: Int = 10): MyList<T> {
     var size = 0
     var capacity = initialCapacity
 
+    companion object {
+        fun <E> myListOf(vararg elements: E): MyArrayList<E> {
+            val list = MyArrayList<E>()
+            for (element in elements) {
+                list.add(element)
+            }
+            return list
+        }
+    }
+
     override fun get(index: Int): T {
         if (size < index) {
             throw IndexOutOfBoundsException("")
@@ -50,4 +60,5 @@ class MyArrayList<T>(private val initialCapacity: Int = 10): MyList<T> {
     }
 
     override fun size(): Int = size
+
 }
